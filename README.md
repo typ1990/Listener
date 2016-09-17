@@ -96,5 +96,9 @@ session钝化的本质就是把服务器不经常使用的session对象暂时序
 
 当对象实现Persistentmanager的接口之后，这个对象被session绑定了，这时会触发事件，执行方法
 
-
-
+使用servlet3.0的前提条件：
+1,使用servlet3.0新标准Jar包
+2，jdk1.6以上
+3，编译级别6.0
+4，web.xml使用3.0规范
+5，使用servlet3.0特性WEB容器，比如tomcat7.0
