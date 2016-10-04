@@ -1,5 +1,5 @@
 # Listener
-Web监听器+单例模式+观察者模式+适配器模式
+Web监听器
 
 在Servlet规范中定义了多种类型的监听器，它们用于监听的事件源分别为SerlvetConext,HttpSession和ServletRequest这三个域对象。
 
@@ -95,9 +95,6 @@ session钝化的本质就是把服务器不经常使用的session对象暂时序
 5,实例部分：
 
 当对象实现Persistentmanager的接口之后，这个对象被session绑定了，这时会触发事件，执行方法
-
-
-
 
 
 
